@@ -1,79 +1,127 @@
-Bank Loan Report Summary
-📘 What the Project Does
+📘 Project Overview
 
-The Bank Loan Report Summary is an interactive Power BI dashboard designed to analyze loan portfolio performance, track default trends, and evaluate credit risk exposure.
-It provides financial institutions and microfinance banks with a clear overview of loan activities — from disbursement to repayment — helping management make data-driven lending decisions.
+Bank Loan Report Summary is an interactive Power BI dashboard designed to analyze and monitor loan portfolio performance.
+It helps financial institutions and microfinance banks track loan disbursement, repayment trends, and credit risk exposure — providing management with actionable, data-driven insights for smarter lending decisions.
 
-Key features include:
+✨ Key Features
 
-Loan default analysis by state, loan type, and customer profile
+📊 Loan Default Analysis — Analyze defaults by branch, loan type, and customer segment
 
-Credit risk heatmaps to identify high-risk borrowers
+🔥 Credit Risk Heatmaps — Identify and visualize high-risk borrower groups
 
-KPI tracking for loan disbursement, repayment rate, and turnaround time
+📈 KPI Tracking — Monitor key metrics such as:
 
-Dynamic filters and drill-downs for better insights
+Loan disbursement volume
 
-💡 Why the Project Is Useful
+Repayment rate
+
+Average turnaround time
+
+🔍 Dynamic Filters & Drill-downs — Explore data interactively at multiple levels
+
+🧭 Interactive Visuals — Navigate seamlessly between Summary, Overview, and Details views
+
+💡 Why This Project Is Useful
 
 Financial institutions often struggle with:
 
 High loan default rates
 
-Inefficient manual loan tracking processes
+Inefficient manual tracking processes
 
-Lack of timely insight into loan performance
+Limited visibility into real-time portfolio performance
 
-This dashboard solves those challenges by:
+This dashboard helps address those challenges by:
 
-Visualizing loan risk trends for faster intervention
+✅ Visualizing loan risk trends for faster intervention
+✅ Enabling data-driven lending decisions
+✅ Reducing default exposure through improved transparency
+✅ Supporting regulatory compliance with auditable reports
 
-Improving decision-making with real-time insights
+It’s ideal for banks, fintechs, and microfinance institutions looking to strengthen credit risk management and portfolio performance.
 
-Reducing default exposure through better data visibility
+⚙️ How to Get Started
 
-Supporting compliance with clear, auditable reports
-
-It’s especially useful for banks, fintechs, and microfinance institutions that want to optimize their loan portfolios and strengthen risk management.
-
-⚙️ How Users Can Get Started
-
-You can view or replicate this project by following these steps:
+To view or replicate this project:
 
 Clone or download this repository:
 
 git clone https://github.com/Bimoral/bank-loan-report-summary.git
 
 
-Download the dataset (Home Credit Default Risk) from Kaggle:
-🔗 Home Credit Default Risk Dataset
+Download the dataset provided in the repository’s /data folder
+(or use your organization’s internal loan data).
 
-Open the dataset in Excel or SQL Server for cleaning and transformation.
+Clean and prepare the dataset using Excel, Power Query, or SQL Server.
 
-Load the cleaned dataset into Power BI and connect the data source.
+Open Power BI Desktop and connect the prepared dataset.
 
-Use the Power BI dashboard files included in this repository to explore the visuals.
+Load the provided Power BI (.pbix) file from this repository to explore the visuals.
 
-📚 Where Users Can Get Help
+🧩 Technical Architecture
 
-If you have questions or want to collaborate on improving the dashboard, you can:
+Below is an overview of how data flows through the system:
 
-Reach out via LinkedIn
+         📂 Data Sources
+         ├── Loan Disbursement Records (Excel/SQL)
+         ├── Repayment History
+         └── Customer Profiles
+                  │
+                  ▼
+         🧮 Data Cleaning & Transformation
+         ├── Power Query / SQL Scripts
+         └── Data Quality Checks
+                  │
+                  ▼
+         📊 Power BI Model
+         ├── Relationships & Measures (DAX)
+         ├── KPIs & Calculated Fields
+                  │
+                  ▼
+         💡 Power BI Dashboard
+         ├── Summary View (Portfolio KPIs)
+         ├── Overview View (Branch/Loan Type)
+         └── Details View (Customer-Level Insights)
 
-Open an issue in this GitHub repository
 
-Or contact me by email at abimbolaolatoto@gmail.com
+This simple flow ensures a transparent, auditable, and efficient reporting pipeline from raw data → insights → decisions.
 
-I’m happy to guide anyone working on similar financial data analysis or visualization projects.
+🖼️ Dashboard Views
 
-👤 Who Maintains and Contributes to This Project
+🔷 Summary View
 
-This project is maintained by Abimbola Araoye,
-a Quality Control Officer and Data Analyst with 15+ years of experience in the microfinance and financial services industry.
+🔶 Overview View
 
-💼 Experienced in regulatory compliance, data analytics, and credit operations
+🔷 Details View
 
-🧠 Skilled in Excel, SQL, and Power BI
+(Replace these image paths once you upload screenshots to the images folder.)
 
-🌍 Passionate about helping financial institutions use data to drive smarter, safer lending decisions
+📚 Need Help or Want to Collaborate?
+
+If you have questions or would like to improve the dashboard:
+
+💼 Connect on LinkedIn
+
+📨 Email: abimbolaolatoto@gmail.com
+
+💬 Open an issue in this GitHub repository
+
+I’m happy to collaborate with others working on financial data analytics and visualization projects.
+
+👤 Maintainer
+
+Abimbola Araoye
+Quality Control Officer & Data Analyst with over 15 years of experience in the microfinance and financial services industry.
+
+Expertise:
+
+Regulatory compliance
+
+Data analytics & reporting
+
+Credit operations
+
+Tools: Excel | SQL | Power BI
+
+Passion: Helping financial institutions use data to drive smarter, safer lending decision
 
