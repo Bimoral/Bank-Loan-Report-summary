@@ -14,29 +14,29 @@ Three comprehensive report views:
 •	Details – Transaction-level insights for granular drill-down
 
 📈 2. Performance Metrics
-
+<pre> ```
 Track critical KPIs with Month-to-Date (MTD) and Month-over-Month (MOM) comparisons:
 •	Total Loan Applications
 •	Funded Amount
 •	Amount Received
 •	Average Interest Rate
 •	Average Debt-to-Income (DTI) Ratio
-
+ </pre>
 💡 3. Loan Segmentation & Risk Analysis
-
+<pre> ```
 •	Categorizes Good vs. Bad Loans
 •	Visualizes Credit Risk Heatmaps to identify high-risk borrowers
 •	Displays loan status breakdown — Fully Paid, Current, Charged Off
-
+ </pre>
 🧍 4. Demographic & Categorical Insights
 Analyze loans by:
-
+<pre> ```
 •	Loan Purpose (debt consolidation, credit card, home improvement, etc.)
 •	Home Ownership
 •	Employee Length
 •	Term Duration (36 vs. 60 months)
 •	State or Region
-
+``` </pre>
 🔍 5. Drill-Down Functionality
 
 Access detailed insights — including loan ID, grade, sub-grade, funded amount, interest rate, and installment details.
@@ -47,13 +47,13 @@ Access detailed insights — including loan ID, grade, sub-grade, funded amount,
 Financial institutions handle large volumes of loan data daily — often spread across multiple systems and file formats.
 This makes it difficult to monitor performance, identify risks, and maintain data accuracy.
 Common challenges include:
-
+<pre> ```
 •	❌ High loan default rates due to limited visibility into borrower risk
 •	🕒 Time-consuming manual reporting and tracking
 •	📉 Lack of real-time portfolio insights
 •	📂 Scattered, unstandardized data sources
 •	⚠️ Missed early warning signs for bad loans
-
+``` </pre>
 
 🎯 How This Project Helps & Why It’s Useful
 
@@ -61,13 +61,13 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 
 
 ✅ What It Solves
-
+<pre> ```
 •	Centralizes Data: Consolidates loan disbursement, repayment, and borrower data in one place
 •	Automates KPI Tracking: Calculates and visualizes MTD/MOM metrics instantly
 •	Identifies Risk Early: Detects high-risk borrowers and charged-off loans for proactive management
 •	Improves Decision-Making: Enables dynamic filtering by state, loan purpose, borrower type, and term
 •	Enhances Transparency: Provides real-time portfolio visibility for management and regulatory teams
-
+``` </pre>
 
 💡 Why It’s Valuable
 <pre> ```
@@ -121,17 +121,18 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 
 🔧 Architecture Components Explained
 1. Data Sources
+   <pre> ```
 •	Loan Application Data: Loan ID, amount, grade, purpose, term, interest rate, DTI, and borrower details
 •	Status Data: Loan repayment status — Fully Paid, Current, or Charged Off
 •	Demographic Data: Purpose, state, employee length, home ownership
 •	Formats: Excel, CSV, or SQL database
-
-2. Data Extraction Layer
+`` </pre>
+3. Data Extraction Layer
 •	Managed using Power Query or SQL scripts
 •	Connects to multiple sources and performs initial cleaning
 •	Functions include null handling, type conversion, and data validation
 
-3. Data Transformation Layer
+4. Data Transformation Layer
 •	DAX (Data Analysis Expressions) used for KPI and metric calculations:
 o	MTD/MOM Applications
 o	Funded Amount
@@ -140,13 +141,13 @@ o	Average DTI
 o	Good vs. Bad Loan Ratio
 •	M Language (Power Query) used for ETL and transformation logic
 
-4. Data Model Layer
+5. Data Model Layer
 •	Built using a Star Schema structure:
 o	Fact Table: Loan Transactions (funded, received, interest rate, DTI)
 o	Dimension Tables: Borrower, Purpose, State, and Date
 •	One-to-many relationships established from dimensions to fact table
 
-5. Visualization Layer
+6. Visualization Layer
 •	Built using Power BI visuals:
 o	KPI Cards → Loan Applications, Funded Amount
 o	Bar/Column Charts → Applications by Purpose or Term
@@ -155,7 +156,7 @@ o	Line Charts → Monthly Trends
 o	Tables → Detailed loan-level data
 •	Tabs: Summary, Overview, and Details
 
-6. Publishing & Access Layer
+7. Publishing & Access Layer
 •	Dashboard published to Power BI Service / Workspace
 •	Scheduled Refreshes ensure up-to-date reporting
 •	Role-Based Access Control (RBAC) secures sensitive borrower information
