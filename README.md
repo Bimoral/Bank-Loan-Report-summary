@@ -73,7 +73,8 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 
 🔄 Data Flow Diagram
 
-📂 Data Sources
+<pre> ```text
+ 📂 Data Sources
  ├── Loan Disbursement Records (CSV / Excel / SQL)
  ├── Repayment History
  └── Customer Profiles
@@ -102,7 +103,8 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
          ▼
 📊 Publishing & Access Layer
  ├── Power BI Service / Workspace
- └── Role-Based Access Control (RBAC)
+ └── Role-Based Access Control (RBAC )
+``` </pre>
 
 🔧 Architecture Components Explained
 1. Data Sources
