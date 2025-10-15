@@ -70,7 +70,7 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 
 
 💡 Why It’s Valuable
-
+<pre> ```
 •	Data-Driven Decisions: Enables smarter, faster lending choices
 •	Credit Risk Management: Reduces default exposure through better insights
 •	Operational Efficiency: Eliminates manual report preparation with automated dashboards
@@ -80,7 +80,7 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 ✅ Smarter lending decisions
 ✅ Lower default rates
 ✅ Improved reporting transparency
-
+``` </pre>
 
 🏗️ Technical Architecture Overview
 
