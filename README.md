@@ -5,13 +5,16 @@ Bank Loan Report Summary is an interactive Power BI dashboard designed to analyz
 It provides a centralized, data-driven view of loan disbursement, repayment trends, and credit risk exposure — empowering management to make smarter, faster lending decisions with real-time insights.
 
 🔑 Key Features
+
 📊 1. Interactive Dashboards
+
 Three comprehensive report views:
 •	Summary – Portfolio KPIs and key metrics
 •	Overview – Visual analysis by borrower segments and loan types
 •	Details – Transaction-level insights for granular drill-down
 
 📈 2. Performance Metrics
+
 Track critical KPIs with Month-to-Date (MTD) and Month-over-Month (MOM) comparisons:
 •	Total Loan Applications
 •	Funded Amount
@@ -20,12 +23,14 @@ Track critical KPIs with Month-to-Date (MTD) and Month-over-Month (MOM) comparis
 •	Average Debt-to-Income (DTI) Ratio
 
 💡 3. Loan Segmentation & Risk Analysis
+
 •	Categorizes Good vs. Bad Loans
 •	Visualizes Credit Risk Heatmaps to identify high-risk borrowers
 •	Displays loan status breakdown — Fully Paid, Current, Charged Off
 
 🧍 4. Demographic & Categorical Insights
 Analyze loans by:
+
 •	Loan Purpose (debt consolidation, credit card, home improvement, etc.)
 •	Home Ownership
 •	Employee Length
@@ -33,10 +38,12 @@ Analyze loans by:
 •	State or Region
 
 🔍 5. Drill-Down Functionality
+
 Access detailed insights — including loan ID, grade, sub-grade, funded amount, interest rate, and installment details.
 
 
 🧩 Problem Statement
+
 Financial institutions handle large volumes of loan data daily — often spread across multiple systems and file formats.
 This makes it difficult to monitor performance, identify risks, and maintain data accuracy.
 Common challenges include:
@@ -49,10 +56,12 @@ Common challenges include:
 
 
 🎯 How This Project Helps & Why It’s Useful
+
 The Bank Loan Report Dashboard transforms scattered loan data into interactive, real-time insights — empowering financial institutions to enhance portfolio quality, reduce risk, and improve operational efficiency.
 
 
 ✅ What It Solves
+
 •	Centralizes Data: Consolidates loan disbursement, repayment, and borrower data in one place
 •	Automates KPI Tracking: Calculates and visualizes MTD/MOM metrics instantly
 •	Identifies Risk Early: Detects high-risk borrowers and charged-off loans for proactive management
@@ -61,6 +70,7 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 
 
 💡 Why It’s Valuable
+
 •	Data-Driven Decisions: Enables smarter, faster lending choices
 •	Credit Risk Management: Reduces default exposure through better insights
 •	Operational Efficiency: Eliminates manual report preparation with automated dashboards
@@ -154,6 +164,7 @@ o	Tables → Detailed loan-level data
 
 
 🖼️ Dashboard Views
+
 🔷 Summary View: Portfolio-level KPIs and trend analysis
  
 🔶 Overview View: Loan performance by segment, purpose, and region
@@ -162,6 +173,7 @@ o	Tables → Detailed loan-level data
  
 
 🚀 Getting Started
+
 1️⃣  Clone the Repository
 git clone https://github.com/Bimoral/bank-loan-report-summary.git
 
@@ -189,19 +201,23 @@ git clone https://github.com/Bimoral/bank-loan-report-summary.git
 
 💡 In Simple Terms
 This project turns complex, scattered loan data into clear, interactive dashboards — helping financial institutions:
+
 •	Reduce loan defaults
 •	Strengthen credit risk management
 •	Improve portfolio quality
 •	Make faster, smarter lending decisions
 
 🧠 Tech Stack
+
 •	Power BI Desktop – Visualization & Reporting
 •	Microsoft SQL Server – Data Source Integration
 •	Power Query / DAX – ETL & Calculation Layer
 •	Excel / CSV – Data Input Sources
 
 📚 Need Help or Want to Collaborate?
+
 If you’d like to explore or enhance this project:
+
 💼 Connect on LinkedIn:www.linkedin.com/in/abimbolaaraoye
 📨 Email: abimbolaolatoto@gmail.com
 
@@ -209,10 +225,12 @@ If you’d like to explore or enhance this project:
 I’m happy to collaborate with professionals working on financial data analytics and business intelligence solutions.
 
 👤 Maintainer
+
 Abimbola Araoye
 Quality Control Officer & Data Analyst with over 15 years of experience in the microfinance and financial services industry.
 
 Expertise:
+
 •	Regulatory Compliance (AML, KYC)
 •	Credit Operations & Portfolio Risk
 •	Data Analytics & Reporting
