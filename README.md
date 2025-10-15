@@ -7,12 +7,12 @@ It provides a centralized, data-driven view of loan disbursement, repayment tren
 🔑 Key Features
 
 📊 1. Interactive Dashboards
-
+<pre> ```
 Three comprehensive report views:
 •	Summary – Portfolio KPIs and key metrics
 •	Overview – Visual analysis by borrower segments and loan types
 •	Details – Transaction-level insights for granular drill-down
-
+</pre>
 📈 2. Performance Metrics
 <pre> ```
 Track critical KPIs with Month-to-Date (MTD) and Month-over-Month (MOM) comparisons:
@@ -120,13 +120,15 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 ``` </pre>
 
 🔧 Architecture Components Explained
-1. Data Sources
-   <pre> ```
+
+<pre> ```
+ 1. Data Sources
 •	Loan Application Data: Loan ID, amount, grade, purpose, term, interest rate, DTI, and borrower details
 •	Status Data: Loan repayment status — Fully Paid, Current, or Charged Off
 •	Demographic Data: Purpose, state, employee length, home ownership
 •	Formats: Excel, CSV, or SQL database
 `` </pre>
+
 3. Data Extraction Layer
 •	Managed using Power Query or SQL scripts
 •	Connects to multiple sources and performs initial cleaning
