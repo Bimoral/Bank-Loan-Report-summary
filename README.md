@@ -47,8 +47,10 @@ Common challenges include:
 •	📂 Scattered, unstandardized data sources
 •	⚠️ Missed early warning signs for bad loans
 
+
 🎯 How This Project Helps & Why It’s Useful
 The Bank Loan Report Dashboard transforms scattered loan data into interactive, real-time insights — empowering financial institutions to enhance portfolio quality, reduce risk, and improve operational efficiency.
+
 
 ✅ What It Solves
 •	Centralizes Data: Consolidates loan disbursement, repayment, and borrower data in one place
@@ -56,6 +58,7 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 •	Identifies Risk Early: Detects high-risk borrowers and charged-off loans for proactive management
 •	Improves Decision-Making: Enables dynamic filtering by state, loan purpose, borrower type, and term
 •	Enhances Transparency: Provides real-time portfolio visibility for management and regulatory teams
+
 
 💡 Why It’s Valuable
 •	Data-Driven Decisions: Enables smarter, faster lending choices
@@ -73,7 +76,7 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 
 🔄 Data Flow Diagram
 
-<pre> ```text
+<pre> ```
  📂 Data Sources
  ├── Loan Disbursement Records (CSV / Excel / SQL)
  ├── Repayment History
@@ -112,10 +115,12 @@ The Bank Loan Report Dashboard transforms scattered loan data into interactive, 
 •	Status Data: Loan repayment status — Fully Paid, Current, or Charged Off
 •	Demographic Data: Purpose, state, employee length, home ownership
 •	Formats: Excel, CSV, or SQL database
+
 2. Data Extraction Layer
 •	Managed using Power Query or SQL scripts
 •	Connects to multiple sources and performs initial cleaning
 •	Functions include null handling, type conversion, and data validation
+
 3. Data Transformation Layer
 •	DAX (Data Analysis Expressions) used for KPI and metric calculations:
 o	MTD/MOM Applications
@@ -124,11 +129,13 @@ o	Average Interest Rate
 o	Average DTI
 o	Good vs. Bad Loan Ratio
 •	M Language (Power Query) used for ETL and transformation logic
+
 4. Data Model Layer
 •	Built using a Star Schema structure:
 o	Fact Table: Loan Transactions (funded, received, interest rate, DTI)
 o	Dimension Tables: Borrower, Purpose, State, and Date
 •	One-to-many relationships established from dimensions to fact table
+
 5. Visualization Layer
 •	Built using Power BI visuals:
 o	KPI Cards → Loan Applications, Funded Amount
@@ -137,6 +144,7 @@ o	Pie/Donut Charts → Home Ownership Distribution
 o	Line Charts → Monthly Trends
 o	Tables → Detailed loan-level data
 •	Tabs: Summary, Overview, and Details
+
 6. Publishing & Access Layer
 •	Dashboard published to Power BI Service / Workspace
 •	Scheduled Refreshes ensure up-to-date reporting
@@ -156,20 +164,25 @@ o	Tables → Detailed loan-level data
 🚀 Getting Started
 1️⃣  Clone the Repository
 git clone https://github.com/Bimoral/bank-loan-report-summary.git
+
 2️⃣ Set Up the Environment
 •	Install Microsoft SQL Server and Power BI Desktop
 •	Ensure your data source (CSV, SQL, Excel) matches the schema
+
 3️⃣ Load and Transform Data
 •	Connect your data via Power BI’s Get Data feature
 •	Clean and merge using Power Query
 •	Define measures using DAX
 •	Refresh queries to populate visuals
+
 4️⃣ Open the Report
 •	Open the .pbix file in Power BI Desktop
 •	Explore Summary, Overview, and Details tabs
+
 5️⃣ Customize (Optional)
 •	Modify visuals, filters, or KPIs (e.g., ROI, Default Rate, Recovery Rate)
 •	Adjust data model as needed
+
 6️⃣ Publish and Share
 •	Publish to Power BI Service
 •	Configure scheduled refresh and access permissions
@@ -198,6 +211,7 @@ I’m happy to collaborate with professionals working on financial data analytic
 👤 Maintainer
 Abimbola Araoye
 Quality Control Officer & Data Analyst with over 15 years of experience in the microfinance and financial services industry.
+
 Expertise:
 •	Regulatory Compliance (AML, KYC)
 •	Credit Operations & Portfolio Risk
