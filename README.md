@@ -1,6 +1,7 @@
 💰 Bank Loan Report Summary – Power BI Dashboard
 
 🏦 Project Overview
+
 Bank Loan Report Summary is an interactive Power BI dashboard designed to analyze and monitor loan portfolio performance for banks, financial institutions, and microfinance organizations.
 It provides a centralized, data-driven view of loan disbursement, repayment trends, and credit risk exposure — empowering management to make smarter, faster lending decisions with real-time insights.
 
